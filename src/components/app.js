@@ -1,15 +1,15 @@
-import React from 'react';
+import React, {Component} from 'react';
 import Header from './Header';
-import Section from './Section';
-import List from './List';
+import Secction from './Secction';
 
-const  Hobies = ['cantar, bailar, leer, programar'];
+const PERSON = [
+  {name: 'Betsy Vidal', img: 'assets/images/betsy.jpg', discription: 'Soy una apasionada por crear productos tecnológicos y estar en constante aprendizaje. Actualmente soy front-end developer de Laboratoria, y aspiro a ser full-stack en el futuro. Tengo conocimientos en diseño y desarrollo de proyectos web, también poseo conocimientos en administración de aplicaciones y páginas web con firebase. A futuro aspiro trabajar en una empresa líder en tecnología, también ser freelancer y hacer proyectos tecnológicos de mayor alcance.', hobies: 'cantar, bailar, leer, programar'},
+];
 
 const App = () => (
   <div>
     <Header/>
-    <Section/>
-    <List data={Hobies}/> 
+    <Secction data={PERSON}/>
   </div>
 )
 

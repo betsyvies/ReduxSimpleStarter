@@ -1,16 +1,7 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 const Header = () => (
-  <nav>
-    <li>
-      <ul>
-        person
-      </ul>
-      <ul>
-        lista
-      </ul>
-    </li>
-  </nav>
+  <nav>Person</nav>
 )
 
 export default Header

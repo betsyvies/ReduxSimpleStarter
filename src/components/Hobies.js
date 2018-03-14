@@ -1,7 +1,7 @@
 // import React, {Component}  from 'react';
 
 // const Hobies = ({ hobies }) => (  
-//   <li key={index}>hobies}</li> 
+//   <li>{hobies}</li> 
 // )
 
 // export default Hobies
